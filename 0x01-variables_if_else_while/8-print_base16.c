@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-	int i = 0;
+	int numb;
+	char alphab;
 
-	while (i < 10)
+	for (numb = 48 ; numb <= 57 ; numb++)
 	{
-		if (i < 10)
-			putchar(i + '0');
-		else if (i > 41)
-			putchar(i - 10 + 'A');
-		i++;
+		putchar(numb);
 	}
-	putchar(10);
+	for (alphab = 97 ; alphab <= 102 ; alphab++)
+	{
+		putchar(alphab);
+	}
+	putchar('\n');
 	return (0);
 }
