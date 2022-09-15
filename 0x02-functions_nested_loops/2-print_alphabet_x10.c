@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_10x - prints alpabet in lowercase ten times
+ * print_alphabet_10x - Entry point
  *
  * Return: 0
  */
