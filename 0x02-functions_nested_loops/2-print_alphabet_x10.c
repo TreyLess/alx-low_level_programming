@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main- prints alpabet in lowercase ten times
+ * print_alphabet_10x - prints alpabet in lowercase ten times
  *
  * Return: 0
  */
-void print_alphabet_10x(void);
+void print_alphabet_10x(void)
 {
 	char alpha;
 	int i = 0;
