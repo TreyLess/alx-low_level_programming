@@ -1,7 +1,6 @@
-!<arch>
-main.h/         0           0     0     644     691       `
-#ifndef _MAIN_H_
+ifndef _MAIN_H_
 #define _MAIN_H_
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -22,10 +21,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-#endif
 
-0-isupper.c/    0           0     0     644     38        `
-int _putchar(char c)
-{
-	return (0);
-}
+#endif
